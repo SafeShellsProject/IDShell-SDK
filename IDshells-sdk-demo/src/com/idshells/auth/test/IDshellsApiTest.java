@@ -8,7 +8,6 @@ import com.idshells.auth.util.SDKObject;
  * 
  * 类、接口等说明
  *
- * @Date 2014年7月25日,下午1:19:48
  * @version v1.0
  * @author
  */
@@ -22,8 +21,7 @@ public class IDshellsApiTest {
 
     /**
      * 判断用户是否存在 
-     * @Date 2018年6月10日,下午4:27:02 
-     * @author CS 
+     * @author SafeShells 
      * @return void 
      * @throws
      */
@@ -37,8 +35,7 @@ public class IDshellsApiTest {
 
     /**
      * 添加用户 
-     * @Date 2018年6月10日,下午4:45:11 
-     * @author CS 
+     * @author SafeShells 
      * @return void 
      * @throws
      */
@@ -52,8 +49,7 @@ public class IDshellsApiTest {
 
     /**
      * 启用用户 
-     * @Date 2018年6月10日,下午4:44:26 
-     * @author CS 
+     * @author SafeShells 
      * @return void 
      * @throws
      */
@@ -67,8 +63,7 @@ public class IDshellsApiTest {
 
     /**
      * 停用用户 
-     * @Date 2018年6月10日,下午4:44:44 
-     * @author CS 
+     * @author SafeShells 
      * @return void 
      * @throws
      */
@@ -82,8 +77,7 @@ public class IDshellsApiTest {
 
     /**
      * 锁定用户 
-     * @Date 2018年6月10日,下午4:46:45 
-     * @author CS 
+     * @author SafeShells 
      * @return void 
      * @throws
      */
@@ -97,8 +91,7 @@ public class IDshellsApiTest {
 
     /**
      * 解锁用户 
-     * @Date 2018年6月10日,下午4:46:52 
-     * @author CS 
+     * @author SafeShells 
      * @return void 
      * @throws
      */
@@ -114,8 +107,7 @@ public class IDshellsApiTest {
 
     /**
      *  检查是否已经激活手机令牌
-     *  @Date 2018年6月10日,下午5:26:22 
-     *  @author CS 
+     *  @author SafeShells 
      *  @return void 
      *  @throws
      */
@@ -129,8 +121,7 @@ public class IDshellsApiTest {
 
     /**
      * 获取手机令牌激活数据
-     * @Date   2018年6月10日,下午5:35:50
-     * @author CS
+     * @author SafeShells
      * @return void
      * @throws
      */
@@ -146,8 +137,7 @@ public class IDshellsApiTest {
 
     /**
      * OTP认证(goolge-otp和短信otp都使用此接口)
-     * @Date   2018年6月10日,下午7:30:18
-     * @author CS
+     * @author SafeShells
      * @return void
      * @throws
      */
@@ -164,8 +154,7 @@ public class IDshellsApiTest {
     //**********************************************以下为短信令牌接口************************************
     /**
      * 发送短信令牌
-     * @Date   2018年7月9日,下午3:09:18
-     * @author CS
+     * @author SafeShells
      * @param username
      * @param phoneSN
      * @return void
@@ -181,8 +170,7 @@ public class IDshellsApiTest {
     
     /**
      * 发送邮件令牌
-     * @Date   2018年7月9日,下午3:10:03
-     * @author CS
+     * @author SafeShells
      * @param username
      * @param email
      * @return void
@@ -200,8 +188,7 @@ public class IDshellsApiTest {
 
     /**
      * 查看用户是否开通微信令牌认证(返回code为204表示未开通)
-     * @Date   2018年6月10日,下午9:37:49
-     * @author CS
+     * @author SafeShells
      * @param username
      * @return void 
      * @throws
@@ -216,8 +203,7 @@ public class IDshellsApiTest {
 
     /**
      * 获取微信令牌激活码
-     * @Date   2018年6月10日,下午9:46:09
-     * @author CS
+     * @author SafeShells
      * @return void
      * @throws
      */
@@ -239,8 +225,7 @@ public class IDshellsApiTest {
 
     /**
      * 激活微信令牌
-     * @Date   2018年6月10日,下午9:46:28
-     * @author CS
+     * @author SafeShells
      * @param openid
      * @param wechatAC
      * @return void
@@ -256,8 +241,7 @@ public class IDshellsApiTest {
 
     /**
      * 第1步.获取用户微信扫码认证二维码信息(应用服务器调用，调用完成展示二维码后，可立即调用第四步)
-     * @Date   2018年6月10日,下午11:50:33
-     * @author CS
+     * @author SafeShells
      * @param username
      * @return void
      * @throws
@@ -279,8 +263,7 @@ public class IDshellsApiTest {
 
     /**
      * 第2步.获取用户微信扫码认证二维码信息(微信服务器调用)
-     * @Date   2018年6月10日,下午11:16:18
-     * @author CS
+     * @author SafeShells
      * @param username
      * @return void
      * @throws
@@ -300,8 +283,7 @@ public class IDshellsApiTest {
 
     /**
      * 第3步.微信扫码认证响应 (微信服务器调用)
-     * @Date   2018年6月10日,下午11:19:53
-     * @author CS
+     * @author SafeShells
      * @param reqid
      * @param username
      * @param ret 0：拒绝登录  1：确认登录
@@ -318,8 +300,7 @@ public class IDshellsApiTest {
 
     /**
      * 第4步.获取微信扫码认证结果
-     * @Date   2018年6月11日,上午12:08:26
-     * @author CS
+     * @author SafeShells
      * @param reqid
      * @return void
      * @throws
